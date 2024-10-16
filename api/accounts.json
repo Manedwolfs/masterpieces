@@ -1,0 +1,30 @@
+[
+  {
+    "screen_name": "YOUR_SCREEN_NAME",
+    "password": "YOUR_PASSWORD",
+    "game": {
+      "type": "flash",
+      "smartfoxServer": "iss03-classic.prod.animaljam.internal",
+      "smartfoxPort": 443,
+      "deploy_version": "1700"
+    },
+    "proxy": {
+      "host": "YOUR_PROXY_HOST",
+      "port": 3128
+    }
+  },
+  {
+    "screen_name": "YOUR_SCREEN_NAME",
+    "password": "YOUR_PASSWORD",
+    "game": {
+      "type": "mobile",
+      "smartfoxServer": "aws-or-prod-iss03-mobile.animaljam.com",
+      "smartfoxPort": 443,
+      "deploy_version": "102.1.23"
+    },
+    "proxy": {
+      "host": "YOUR_PROXY_HOST",
+      "port": 3128
+    }
+  }
+]
