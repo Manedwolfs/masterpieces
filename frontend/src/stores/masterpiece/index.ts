@@ -12,7 +12,7 @@ export const useMasterpieceStore = defineStore("masterpiece", () => {
    * @param game The game to fetch masterpieces for.
    */
   const fetchMasterpieces = async ({ username, game }: { username: string, game: string }): Promise<void> => {
-    const response = await fetch('https://api.jam.exposed/v1/masterpiece/search', {
+    const response = await fetch(`${process.env.NUXT_PUBLIC_API_BASE}/v1/masterpiece/search`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

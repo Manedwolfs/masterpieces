@@ -62,7 +62,7 @@ export const useUploaderStore = defineStore('uploader', () => {
     formData.append('masterpiece', file);
     formData.append('username', username.value);
 
-    const response = await fetch('https://api.jam.exposed/v1/masterpiece/create', {
+    const response = await fetch(`${process.env.NUXT_PUBLIC_API_BASE}/v1/masterpiece/create`, {
       method: 'POST',
       body: formData,
     });
