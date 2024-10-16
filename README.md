@@ -11,7 +11,6 @@
   <a href="https://jam.exposed"><strong>🔗 Live Version</strong></a>
   <br>
   <br>
-  <img src="https://img.shields.io/github/license/sxip/masterpieces" alt="License">
   <img src="https://img.shields.io/github/stars/sxip/masterpieces" alt="Stars">
   <img src="https://img.shields.io/github/issues/sxip/masterpieces" alt="Issues">
 </p>
