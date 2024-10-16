@@ -81,7 +81,7 @@ export class Account extends AnimalJamClient {
       screen_name,
       password,
       domain: this._game,
-      // proxy: this._proxy,
+      proxy: this._proxy,
     })
 
     if (!auth_token) throw new Error('Authentication failed')
