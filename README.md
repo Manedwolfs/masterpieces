@@ -26,4 +26,4 @@
 
 
 ## 🖼️ Preview
-<img src="https://i.imgur.com/DUSVnxk.gif" alt="Screenshot 1" width="400">
+<img src="https://i.imgur.com/DUSVnxk.gif" alt="Preview">
