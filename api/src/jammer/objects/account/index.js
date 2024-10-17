@@ -140,7 +140,7 @@ export class Account extends AnimalJamClient {
         clearInterval(intervael)
       }
 
-      this.sendMessage('%xt%o%qat%4640562%treasure_1%0%')
+      this.sendMessage('%xt%o%au%1654103%1%564%646%-2147483634%0%')
     }, 4000)
   }
 
