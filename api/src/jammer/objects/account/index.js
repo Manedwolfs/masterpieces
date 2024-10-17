@@ -105,6 +105,7 @@ export class Account extends AnimalJamClient {
       port,
       domain,
       deploy_version,
+      proxy: this._proxy
     })
 
     try {
