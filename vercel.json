@@ -1,5 +1,5 @@
 {
-  "buildCommand": "index.js"
+  "buildCommand": "api/src/index.js"
 }
 {
   "cleanUrls": true
